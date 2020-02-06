@@ -19,7 +19,6 @@ public class AnimalFarm {
 		/* 1. Ask the user which animal they want, then play the sound of that animal. */			 
 			
 		/* 2. Make it so that the user can keep entering new animals. */
-
 	}
 
 	static void playMoo() {
@@ -41,7 +40,7 @@ public class AnimalFarm {
 	static void playLlama() {
 		playNoise(llamaFile);
 	}
-
+	
 	static String quackFile = "quack.wav";
 	static String mooFile = "moo.wav";
 	static String woofFile = "woof.wav";
