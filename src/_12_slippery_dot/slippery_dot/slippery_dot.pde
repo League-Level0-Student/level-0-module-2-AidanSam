@@ -2,21 +2,22 @@
        
     void setup() {
       // 2. Set the size of your sketch
-    
+    size(500,500);
     }
     
     void draw() {
       // 3. Set the background color of your sketch
-      
+      background(#FA0000);
       // 4. Draw an ellipse. Make sure it fits in the window.
       // Use the variables created at the top of the sketch, 
       // for the location and size of your ellipse
-    
+   fill(#030000);
+    ellipse(250,250,50,50);
     }
     
     void mousePressed() {
       //5. Create an integer variable called distance
-      
+      int distance = 0;
       //6. Set the value of the distance variable to the value returned by the getDistance method
       //   Pass the mouse's x and y (mouseX and mouseY) and the x and y of your ellipse to the method.
         
